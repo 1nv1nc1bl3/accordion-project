@@ -15,7 +15,7 @@ export default function Accordion({ selected, setSelected }) {
                           <div key={dataItem.id} className='item'>
                               <div
                                   className='title'
-                                  onClick={(getCurrentId) =>
+                                  onClick={() =>
                                       handleSingleSelection(dataItem.id)
                                   }
                               >
